@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Dana;
+    src: url("/fonts/webfonts/fonts/Dana-FaNum-Regular.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: DemiBold;
+    src: url("/fonts/webfonts/fonts/Dana-FaNum-DemiBold.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Bold;
+    src: url("/fonts/webfonts/fonts/Dana-FaNum-Bold.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: DanaMedium;
+    src: url("/fonts/webfonts/fonts/Dana-FaNum-Medium.ttf");
+    font-style: normal;
+    font-display: swap;
+}
