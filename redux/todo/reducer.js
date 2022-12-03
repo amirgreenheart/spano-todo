@@ -17,7 +17,6 @@ const todoReducer = (state = initialState, action) => {
             }
         case REMOVE_TODO:
             state.todo = state.todo.filter((_, index) => index !== action.payload);
-            console.log(state.todo);
             saveToLocalStorage(state.todo)
             return {
                 ...state,
