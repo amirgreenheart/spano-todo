@@ -21,7 +21,6 @@ const EditTodo: React.FC<Props> = ({ params }) => {
     const [todonum, setTodoNum] = useState<number>(num);
     const dispatch = useDispatch();
     const handleEditTodo = () => {
-        console.log(params.id)
         if (todoTitle && todonum > 0) {
             dispatch(removeTodo(Number(params.id)))
             dispatch(addTodo(todoTitle, todonum))
